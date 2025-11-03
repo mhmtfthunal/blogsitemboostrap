@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Gönderisi - Blog Sitesi</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Dark Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <strong>Blog Sitesi</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="post.html">Blog Gönderisi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Post Content -->
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <!-- Breadcrumb -->
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Ana Sayfa</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Blog Gönderisi</li>
+                    </ol>
+                </nav>
+
+                <!-- Article Card -->
+                <article class="card shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&h=400&fit=crop" 
+                         class="card-img-top" alt="Evcil Hayvan">
+                    
+                    <div class="card-body">
+                        <!-- Post Meta -->
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="badge bg-primary">Evcil Hayvanlar</span>
+                            <small class="text-muted">
+                                <i class="bi bi-calendar"></i> 1 Kasım 2024
+                            </small>
+                        </div>
+
+                        <!-- Post Title -->
+                        <h1 class="card-title mb-4">Evcil Hayvan Bakımının Temelleri</h1>
+
+                        <!-- Author Info -->
+                        <div class="d-flex align-items-center mb-4 pb-3 border-bottom">
+                            <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" 
+                                 style="width: 50px; height: 50px; font-size: 1.5rem;">
+                                A
+                            </div>
+                            <div class="ms-3">
+                                <p class="mb-0 fw-bold">Ahmet Yılmaz</p>
+                                <small class="text-muted">Veteriner Hekim</small>
+                            </div>
+                        </div>
+
+                        <!-- Post Content -->
+                        <div class="post-content">
+                            <p class="lead">
+                                Evcil hayvanlar, hayatımızın önemli bir parçası haline gelir ve onların sağlıklı 
+                                ve mutlu olması için doğru bakım teknikleri esastır.
+                            </p>
+
+                            <h3 class="mt-4 mb-3">Beslenme ve Diyet</h3>
+                            <p>
+                                Evcil hayvanlarınız için doğru beslenme programı oluşturmak, onların sağlığı açısından 
+                                kritik öneme sahiptir. Her hayvan türünün kendine özgü beslenme ihtiyaçları vardır. 
+                                Kaliteli mama seçimi, porsiyon kontrolü ve düzenli beslenme saatleri hayvanınızın 
+                                sağlığını doğrudan etkiler.
+                            </p>
+                            <p>
+                                Veteriner hekiminizle düzenli görüşerek hayvanınızın yaşına, cinsine ve sağlık 
+                                durumuna uygun bir beslenme planı oluşturabilirsiniz. Aşırı kilolu veya zayıf 
+                                hayvanlar için özel diyetler gerekebilir.
+                            </p>
+
+                            <h3 class="mt-4 mb-3">Hijyen ve Bakım</h3>
+                            <p>
+                                Düzenli tımar, banyo ve tırnak bakımı evcil hayvanınızın sağlığını korumak için 
+                                gereklidir. Kedi ve köpeklerin tüy bakımı, diş temizliği ve kulak kontrolü 
+                                ihmal edilmemelidir. Her türün kendine özgü bakım ihtiyaçları vardır.
+                            </p>
+
+                            <div class="alert alert-info my-4" role="alert">
+                                <h5 class="alert-heading">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                    </svg>
+                                    İpucu
+                                </h5>
+                                Veteriner kontrollerini düzenli olarak yaptırmayı unutmayın. Yılda en az bir kez 
+                                genel sağlık kontrolü önerilir.
+                            </div>
+
+                            <h3 class="mt-4 mb-3">Egzersiz ve Aktivite</h3>
+                            <p>
+                                Evcil hayvanlar, fiziksel ve zihinsel sağlıklarını korumak için düzenli egzersize 
+                                ihtiyaç duyarlar. Köpekler için günlük yürüyüşler, kediler için oyun zamanları 
+                                ve tırmanma alanları önemlidir.
+                            </p>
+                            <p>
+                                Aktivite seviyesi hayvanın yaşına, cinsine ve sağlık durumuna göre değişiklik 
+                                gösterir. Genç ve enerjik hayvanlar daha fazla egzersize ihtiyaç duyarken, 
+                                yaşlı hayvanlar için daha hafif aktiviteler tercih edilmelidir.
+                            </p>
+
+                            <h3 class="mt-4 mb-3">Sosyalleşme ve Eğitim</h3>
+                            <p>
+                                Evcil hayvanların sosyalleşmesi ve temel eğitim alması, hem onların hem de 
+                                sahiplerinin hayat kalitesini artırır. Özellikle köpekler için temel itaat 
+                                eğitimi ve sosyalleşme kritik öneme sahiptir.
+                            </p>
+                            <p>
+                                Pozitif pekiştirme yöntemleri kullanarak hayvanınızı eğitebilir, istenmeyen 
+                                davranışları düzeltebilirsiniz. Sabır ve tutarlılık, başarılı bir eğitim 
+                                sürecinin anahtarıdır.
+                            </p>
+                        </div>
+
+                        <!-- Tags -->
+                        <div class="mt-4 pt-3 border-top">
+                            <span class="badge bg-secondary me-2">Evcil Hayvan</span>
+                            <span class="badge bg-secondary me-2">Bakım</span>
+                            <span class="badge bg-secondary me-2">Sağlık</span>
+                            <span class="badge bg-secondary me-2">Beslenme</span>
+                        </div>
+
+                        <!-- Share Buttons -->
+                        <div class="mt-4 pt-3 border-top">
+                            <h6 class="mb-3">Bu gönderiyi paylaş:</h6>
+                            <div class="d-flex gap-2">
+                                <button class="btn btn-outline-primary btn-sm">
+                                    Facebook
+                                </button>
+                                <button class="btn btn-outline-info btn-sm">
+                                    Twitter
+                                </button>
+                                <button class="btn btn-outline-danger btn-sm">
+                                    Pinterest
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Navigation -->
+                <div class="d-flex justify-content-between mt-4">
+                    <a href="index.html" class="btn btn-outline-primary">
+                        ← Tüm Gönderiler
+                    </a>
+                    <a href="#" class="btn btn-outline-secondary">
+                        Sonraki Gönderi →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-0">© 2025 Blog Sitesi - Tüm Hakları Saklıdır</p>
+            <small class="text-muted">Bootstrap ile geliştirilmiştir</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
