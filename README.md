@@ -104,25 +104,9 @@ Projede kullanılan başlıca Bootstrap bileşenleri:
 
 Bu proje eğitim amaçlı oluşturulmuştur.
 
-## 👤 Geliştirici
-
-**Mehmet Fatih Ünal**
-
-- GitHub: [@mhmtfthunal](https://github.com/mhmtfthunal)
-
-## 🙏 Teşekkürler
-
-- [Bootstrap](https://getbootstrap.com/) - Harika framework için
-- [Unsplash](https://unsplash.com/) - Ücretsiz görseller için
-- [Patika.dev](https://www.patika.dev/) - Eğitim desteği için
-
 ## 📝 Notlar
 
 - Tüm görseller Unsplash'tan alınmıştır
 - Bootstrap CDN üzerinden yüklenmektedir
 - Proje statik HTML sayfalardan oluşmaktadır
 - Backend veya veritabanı entegrasyonu bulunmamaktadır
-
----
-
-**Son Güncelleme**: Kasım 2024
